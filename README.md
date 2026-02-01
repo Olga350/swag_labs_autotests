@@ -2,7 +2,7 @@
 Проект по автоматизации тестирования на Python 3.10 с использованием Selenium и Page Object Model.
 
 # Быстрый запуск (Docker)
-docker run --rm -v "${PWD}/allure-results:/app/allure-results" olga-buben-tests
+docker run --rm -v olga-buben-tests
 # Отчеты Allure
 allure serve allure-results
 # Запуск локально (без Docker)
